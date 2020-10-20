@@ -1,19 +1,19 @@
 print(" ")
-print(" Willkommen zu Leons ``Advanced_Taschenrechner.exe`` ")
+print(" Welcome to Cores ``Advanced_Calculator.exe`` ")
 print(" ")
 print("---")
 print("---")
 print("---")
 print(" ")
-print(" Bitte geben sie ihre Rechung ein")
+print(" Please write down your calculation and press ``ENTER`` ")
 print(" ")
 while 1:
     x = input(">>>  ")          
     if x == 'exit':
-        print(" danke fürs benutzen")
-        print(" möchtest du das Programm wirklich schließen?")
+        print(" thank you for using ``Advanced_Calculator.exe`` ")
+        print(" do you really want to shut down the application? ")
         y = input("  <>-<>  ")
-        if y == 'ja':
+        if y == 'yes':
             break
    
     if x == 'panzer':
@@ -43,5 +43,5 @@ while 1:
         if x == "panzer":
             round
         else:
-            print("SO DUMM IST DOCH NICHT MAL ELIAS... Schau:", e)
+            print("I don`t think this is what you expected... anyway: ", e)
 
