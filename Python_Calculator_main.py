@@ -1,3 +1,4 @@
+import math
 print(" ")
 print(" Welcome to Cores ``Advanced_Calculator.exe`` ")
 print(" ")
@@ -31,17 +32,19 @@ while 1:
             timer = timer + 1
             if timer == 9999:
                 print("ok reicht")
-                exit()
-            
+                exit()            
     try:
         Mathe = eval(x)
         if Mathe: print(Mathe)
     except:
-      try:
-         exec(x)
-      except Exception as e:
-        if x == "panzer":
-            round
-        else:
-            print("I don`t think this is what you expected... anyway: ", e)
+        try:
+            eval('math.'+x)
+        except:
+            try:
+                exec(x)
+            except Exception as e:
+                if x == "panzer":
+                    round
+                else:
+                    print("I don`t think this is what you expected... anyway: ", e)
 
